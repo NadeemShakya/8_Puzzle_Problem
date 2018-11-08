@@ -22,7 +22,8 @@ The 8-puzzle is a smaller version of the slightly better known 15-puzzle. The pu
 <br>
 The aim of the puzzle is to achieve a given configuration of tiles from a given (different) configuration by sliding the individual tiles around the grid as described above.
 <br>
+[Source](http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html)<br>
 <img src = 'screenshots/8Puzzle.png' />
-[Source](http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html)
+
 ## Finding the Solution
 The Game consists of two states - 'Initial State' and 'Goal State'. The objective is to move the one tile at a time by the blank tile and to achieve the stated goal state in possible number of steps.
