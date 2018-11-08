@@ -2,7 +2,9 @@
 
 Using Artificial Intelligence to solve the 8 Puzzle Problem.
 <br>
-Note: This code till now only contains the state space tree representation for achieving the final(goal) state from an initial state.
+**Note**
+* This code till now only contains the state space tree representation for achieving the final(goal) state from an initial state. 
+* It doesnt find the solution in the optimal pattern, it just generates the state space to get the solution using Blind Search with Depth First Search Pattern.
 
 # Platform
 
