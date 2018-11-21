@@ -73,6 +73,7 @@ function dipslayState(record) {
       let textOffsetX = 5;
       noFill();
       stroke(255);
+      line(record[i].x + 22.5, record[i].y + 45, record[i].x + 22.5, rectOffsetY);
       for(let i = 0; i < 3; i++) {
         for(let j = 0; j < 3; j++) {
             noFill();
@@ -112,6 +113,8 @@ function dipslayState(record) {
       for(let n = 0; n < tempStateHolder.length; n++) {
         tempStateHolder[n].x = (rectOffsetX + 30) - 80 * n;
         tempStateHolder[n].y = rectOffsetY;
+        stroke(255);
+        line(record[i].x - 7.5 , record[i].y + 45, rectOffsetX + 22.5 - 80 * n, rectOffsetY);
         for(let i = 0; i < 3; i++) {
           for(let j = 0; j < 3; j++) {
               noFill();
@@ -129,6 +132,8 @@ function dipslayState(record) {
       let textOffsetY = 12;
       let textOffsetX = 5;
       for(let n = 0; n < tempStateHolder.length; n++) {
+        stroke(255);
+        line(record[i].x - 7.5, record[i].y + 45,(rectOffsetX) + 22.5 - 130 * n, rectOffsetY);
         tempStateHolder[n].x = (rectOffsetX) - 130 * n;
         tempStateHolder[n].y = rectOffsetY;
         for(let i = 0; i < 3; i++) {
